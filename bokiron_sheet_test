@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.answer {
+  background: yellow;
+  color: yellow;
+  cursor: pointer;
+}
+.answer.reveal {
+  color: black;
+}
+</style>
+</head>
+
+<body>
+
+<p>・パソコン・サーバー購入費　x円　
+<span class="answer" onclick="this.classList.toggle('reveal')">備品</span></p>
+
+<p>・ソフトウェア購入費　x円　
+<span class="answer" onclick="this.classList.toggle('reveal')">ソフトウェア</span></p>
+
+<p>・旧システムからのデータ移し替え費用　
+<span class="answer" onclick="this.classList.toggle('reveal')">販管費</span></p>
+
+</body>
+</html>
